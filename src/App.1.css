@@ -1,0 +1,141 @@
+.row{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  section{
+    position: relative;
+    border: 1px solid;
+    background-color: rgb(235, 246, 255);
+    height:350px;
+    width: 200px;
+  
+    margin: 90px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .main1{
+    display: flex;
+   flex-direction: row ;
+  }
+  .head{
+    display: flex;
+    padding-left:35px ;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .higer >li{
+    display: flex;
+      display: inline-block;
+      padding: 10px 0px;
+      margin-left: 10px ;
+      }
+      .sub-menu>li{
+        padding: 10px;
+        color: rgb(18, 18, 18);
+      }
+  .sub-menu{
+    display: none;
+    list-style-type:none;
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px;
+    background-color: white;
+    
+  }
+  
+  
+  .higer li:hover,.sub-menu li:hover{
+     background: rgb(214, 215, 221);
+  }
+  .higer li:hover.sub-menu{
+    display: block;
+  }
+  .mani2{
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    height: 200px;
+  }
+  h1{
+   padding-top: 30px;
+    font-size:xxx-large;
+    color: white;
+  }
+  p{
+    color: white;
+  }
+  .line{
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    height: 50px;
+    padding: 30px;
+  }
+  .cart{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 35px;
+  top: 0.6rem;
+  right: 0.40rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 40px;
+  
+  
+  }
+  
+  .ccc{
+    margin: 9px;
+  }
+  img{
+    height: 200px;
+    width: 200px;
+  }
+  .sale{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border: 1px solid;
+    width: 35px;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  }
+  .proname{
+    padding: 5px;
+  }
+  .point{
+    padding: 5px;
+  }
+  .rate{
+    padding: 5px;
+  }
+  .button {
+    background-color: black; 
+    color: white;
+   transition-duration: 0.4s; 
+  }
+  
+  .color {
+    height: 35px;
+    width: 100px;
+    background-color: white; 
+    color: black; 
+    border-radius: 4px;
+  }
+  
+  .color:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  h3{
+    padding: 10px;
+    margin: 10px;
+  }
